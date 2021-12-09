@@ -97,6 +97,7 @@ html{
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+    height: 100vh;
 }
 #pic{
     display: flex;    
@@ -124,6 +125,7 @@ html{
     color: white;
     align-items: center;
     padding: 20px;
+    height: 100vh;
 }
 .gallery{
     display: flex;
@@ -185,6 +187,7 @@ html{
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     padding: 20px;
+    height: 100vh;
 }
 .form{
     display: flex;

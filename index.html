@@ -23,7 +23,7 @@
     <section id="home">
         <div class="main">
             <h1 class="headings">I AM <br> MAISHA SHAHRIAR</h1>
-            <button class="btn">
+            <button class="btn" onClick="document.getElementById('contact').scrollIntoView();">
                 Hire me
             </button>
         </div>
@@ -80,7 +80,7 @@
         </div>
     </section>
 
-    <section id="contact">
+<!--    <section id="contact">
         <h1 class="headings">CONTACT</h1>
         <form action="" class="form">
             <input type="text" name="name" class="input" placeholder="Enter Your Name">
@@ -88,6 +88,16 @@
             <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message">
             </textarea>
             <input type="submit" value="SEND" id="send">
+        </form>
+    </section> -->
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="mailto:smaisha99@gmail.com" class="form" method="post" enctype="text/plain">
+            <input type="text" id="name" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" id="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="Send">
         </form>
     </section>
 
