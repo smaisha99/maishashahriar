@@ -139,8 +139,8 @@ html{
     margin: 10px;
 }
 
-/*Services Section*/
-#services{
+/*Experiences Section*/
+#experience{
     display: flex;
     flex-direction: column;
     padding: 20px;
